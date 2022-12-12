@@ -1,0 +1,70 @@
+/* Propiedades generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+main {
+  padding: 2em 6em;
+  text-align: center;
+}
+
+/* Propiedades de la cabecera */
+.cabecera {
+  padding: 1.5em;
+  text-align: center;
+  background-color: rgb(36, 36, 22);
+  border-bottom: 0.4em solid rgb(216, 218, 57);
+  color: white;
+}
+.cabecera > h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+/* Propiedades de la caja */
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+  margin: 0.2em;
+  min-height: 180px;
+  min-width: 750px;
+  border: 0.1em solid rgb(68, 68, 70);
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Propiedados de los items */
+.box__name {
+  width: 20%;
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.box__description {
+  width: 40%;
+  font-weight: 300;
+  text-align: justify;
+}
+.box__phone {
+  width: 20%;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: black;
+}
+.box__rating {
+  width: 20%;
+  text-align: right;
+  font-size: 2em;
+  letter-spacing: 0.3em;
+  color: rgb(68, 68, 70);
+}
+
+/* Efectos */
+.box:hover {
+  border: 0.4em solid rgb(216, 218, 57);
+}
